@@ -19,6 +19,26 @@ https://user-images.githubusercontent.com/21022743/230456433-2fa7bc40-a735-4d73-
 
 This [napari] plugin was generated with [Cookiecutter] using [@napari]'s [cookiecutter-napari-plugin] template.
 
+
+## Dev-Installation
+
+Setup dev environment:
+
+```
+conda env create -f environment.yml
+conda activate labeling
+
+pip install -r requirements.txt
+```
+
+Install the plugin itself
+```
+pip install -e .
+```
+
+Now, you can run `napari`.
+
+
 ## Installation
 
 You can install `napari-segment-anything` via [pip]:
